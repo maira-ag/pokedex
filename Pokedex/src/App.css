@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trabuchet MS', 'Lucida Sans Unicode',
+  'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;;
+}
+
+@font-face {
+  font-family: "pokemonfont1";
+  src: url("../Pokemon Classic.ttf") format("truetype");
+}
+
+.container {
+  background-color: #171911;
+  background: url('./fundo.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pokemon-gif {
+  height: 130px;
+  margin-bottom: 10px;
+}
+
+.pokemon{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding: 30px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  background: rgba(168, 168, 168, 0.03);
+  backdrop-filter: blur(3px);
+  width: 40vw;
+  height: 55vh;
+  border: 1.5px solid white;
+}
+
+.pokemon h2 {
+  margin-top: 5px;
+}
+
+.fundo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img{
+  width: 20vw;
+  margin-left: 40vw;
+  margin-top: -20px;
+  margin-bottom: -40px;
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 10px;
+  border-color: rgb(219, 33, 61);
+  background-color: rgb(219, 33, 61);
+  font-size: 15px;
+  color: rgb(227, 232, 252);
+  font-family: "pokemonfont1";
+}
+
+button:hover {
+  border-color: rgb(190, 16, 42);
+  background-color: rgb(190, 16, 42);
+  transition: background-color 0.3s ease;
+}
+
+.rodape {
+  width: 100vw;
+}
+
+.footer{
+  background: rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(5px);
+  color: rgb(227, 232, 252);
+  height: 10vh;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer p{
+  font-size: 15px;
+  margin: 20px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+h2{
+  font-family: "pokemonfont1";
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+}
+
+.center{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
